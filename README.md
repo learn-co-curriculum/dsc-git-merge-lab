@@ -40,7 +40,7 @@ Press Ctrl+X to exit and press Y to confirm that you wish to save your changes.
 ## Test Your Python File
 
 Python files can be run from the command line with `python filename`.   
-So in this case, let's practice running our super simple script with `python squares.py`.
+So in this case, let's practice running our super simple script with `python numbers.py`.
 With luck, you should see the square numbers up through 81.
 
 ## Add and Commit Your Changes
@@ -48,7 +48,7 @@ With luck, you should see the square numbers up through 81.
 Add and commit (with a comment) your new file.
 
 `git add --all`  
-`git commit -m "your commit message here; adding squares.py"`
+`git commit -m "your commit message here; uploading numbers.py"`
 
 ## Create and Checkout a New Branch
 
@@ -84,7 +84,7 @@ for i in range(10):
 Add and commit your changes to the cubes branch.
 
 `git add --all`  
-`git commit -m "modifying squares.py"`
+`git commit -m "changing squared to cubed"`
 
 ## Switch Back to the Master Branch
 
