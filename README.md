@@ -47,9 +47,19 @@ With luck, you should see the square numbers up through 81.
 
 Add and commit (with a comment) your new file.
 
-## Create a New Branch
+`git add --all`  
+`git commit -m "your commit message here; adding squares.py"`
 
-Create a new branch called cubes.
+## Create and Checkout a New Branch
+
+Create a new branch called cubes and switch to it.
+
+`git checkout -b cubes`
+
+or 
+
+`git branch cubes`  
+`git checkout cubes`
 
 ## Modify the Branch
 
@@ -73,13 +83,20 @@ for i in range(10):
 
 Add and commit your changes to the cubes branch.
 
+`git add --all`  
+`git commit -m "modifying squares.py"`
+
 ## Switch Back to the Master Branch
 
-Now that we've made development changes in our new branch, we may wish to integrate them back into our master branch such as updating our production code. To do this, we'll switch back to the master branch and then merge the changes we made to our development branch.
+Now that we've made development changes in our new branch, we may wish to integrate them back into our master branch such as updating our production code. To do this, we'll switch back to the master branch and then merge the changes we made to our development branch.  
+
+`git checkout master`
 
 ## Merge the Changes from Cubes
 
 Finally, let's merge the changes from the cubes branch into our master branch.
+
+`git merge cubes`
 
 ## Do a Couple Sanity Checks
 
@@ -88,6 +105,8 @@ Everything should have gone smoothly, but let's do a couple of checks to be sure
 ## Delete the Development Branch
 
 While deleting branches should be cautionary, now that we've merged our changes into the master, we really don't need our development cubes branch any more. To clean things up, delete the branch.
+
+`git branch -d cubes`
 
 ## Summary
 
