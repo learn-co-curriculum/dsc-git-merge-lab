@@ -40,7 +40,7 @@ Press Ctrl+X to exit and press Y to confirm that you wish to save your changes.
 ## Test Your Python File
 
 Python files can be run from the command line with `python filename`.   
-So in this case, let's practice running our super simple script with `python squares.py`.
+So in this case, let's practice running our super simple script with `python numbers.py`.
 With luck, you should see the square numbers up through 81.
 
 ## Add and Commit Your Changes
