@@ -47,9 +47,9 @@ With luck, you should see the square numbers up through 81.
 
 Add and commit (with a comment) your new file.
 
-## Create a New Branch
+## Create and Checkout a New Branch
 
-Create a new branch called cubes.
+Create a new branch called cubes and switch to it.
 
 ## Modify the Branch
 
