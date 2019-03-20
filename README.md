@@ -87,7 +87,7 @@ Everything should have gone smoothly, but let's do a couple of checks to be sure
 
 ## Delete the Development Branch
 
-While deleting branches should be cautionary, now that we've merged our changes into the master, we really don't need our development cubes branch any more. To clean things up, delete the branch.
+While deleting branches should be cautionary, now that we've merged our changes into the master, we really don't need our development cubes branch anymore. To clean things up, delete the branch.
 
 ## Summary
 
