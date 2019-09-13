@@ -21,7 +21,7 @@ To start, create a folder from the command line. (Be sure to place this in a log
 
 Still working from the command line, navigate into your folder and initialize git!
 
-## Optional: Check What's Going On with `git status`
+## Optional: Check What's Going On with git status
 
 ## Create a New Python File
 
