@@ -9,9 +9,10 @@ It's time to continue to practice your git and bash skills! In this lab, you'll 
 
 You will be able to:
     
-* Initialize a git repository
-* Add a branch to a git repository
-* Merge updates from one branch into another
+* Explain branches and their purpose in git
+* Create a new branch
+* Switch between branches
+* Use `git merge` to merge different branches
 
 ## Create a Local Folder to House the Git Repository
 
@@ -91,4 +92,4 @@ While deleting branches should be cautionary, now that we've merged our changes 
 
 ## Summary
 
-Congratulations! In this lab, you practiced using multiple branches in git and merging your changes together. What's more, we also saw that you can use git locally with no remote connection to github if you wish!
+Congratulations! In this lab, you practiced using multiple branches in git and merging your changes together. What's more, we also saw that you can use git locally with no remote connection to GitHub if you wish!
