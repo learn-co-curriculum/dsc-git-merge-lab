@@ -74,13 +74,17 @@ for i in range(10):
 
 Add and commit your changes to the cubes branch.
 
-## Switch Back to the Master Branch
+## Switch Back to the Main/Master Branch
 
-Now that we've made development changes in our new branch, we may wish to integrate them back into our master branch such as updating our production code. To do this, we'll switch back to the master branch and then merge the changes we made to our development branch.
+Since October 2020, Github is moving away from Using the word **Master** and will be using **Main** instead. Older projects may still have the Main branch called Master.
+if you typed ```git checkout master``` and got an error, it may be that your main branch is already called Main. 
+[read more about it here](https://github.com/github/renaming)
+
+Now that we've made development changes in our new branch, we may wish to integrate them back into our main branch such as updating our production code. To do this, we'll switch back to the main branch and then merge the changes we made to our development branch.
 
 ## Merge the Changes from Cubes
 
-Finally, let's merge the changes from the cubes branch into our master branch.
+Finally, let's merge the changes from the cubes branch into our main branch.
 
 ## Do a Couple Sanity Checks
 
@@ -88,7 +92,7 @@ Everything should have gone smoothly, but let's do a couple of checks to be sure
 
 ## Delete the Development Branch
 
-While deleting branches should be cautionary, now that we've merged our changes into the master, we really don't need our development cubes branch anymore. To clean things up, delete the branch.
+While deleting branches should be cautionary, now that we've merged our changes into the main, we really don't need our development cubes branch anymore. To clean things up, delete the branch.
 
 ## Summary
 
